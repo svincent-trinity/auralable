@@ -1,0 +1,16 @@
+*.mp3
+*.gif
+*.png
+*.jpg
+*.ivy
+/project/boot
+*.jdk
+/target/scala-*
+/target/streams
+/target/resolution-cache
+
+${BUILD_DIR}/project/boot
+${BUILD_DIR}/.jdk
+${BUILD_DIR}/target/scala-*
+${BUILD_DIR}/target/streams
+${BUILD_DIR}/target/resolution-cache

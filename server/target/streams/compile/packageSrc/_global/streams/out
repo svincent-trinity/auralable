@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/samvincent/Desktop/AuralAble/server/target/scala-2.12/play-videos-server_2.12-0.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heroku.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samvincent/Desktop/AuralAble/server/conf/heroku.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samvincent/Desktop/AuralAble/server/conf/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samvincent/Desktop/AuralAble/server/conf/routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/ShapesInDatabaseModel.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samvincent/Desktop/AuralAble/server/app/models/ShapesInDatabaseModel.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/Tables.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samvincent/Desktop/AuralAble/server/app/models/Tables.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/CodeGen.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samvincent/Desktop/AuralAble/server/app/models/CodeGen.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/Application.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samvincent/Desktop/AuralAble/server/app/controllers/Application.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

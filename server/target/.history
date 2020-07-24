@@ -1,0 +1,48 @@
+runMain models.CodeGen
+run
+runMain models.CodeGen
+\q
+runMain models.CodeGen
+run
+\q
+quit
+exit
+runMain models.CodeGen
+run
+exit
+clean
+run
+quit
+exit
+run
+exit
+runMain models.CodeGen
+run
+exit
+run
+exit
+run
+exit
+clean
+run
+exit
+clean
+run
+dist
+run
+exit
+clean
+run
+runMain models.CodeGen
+run
+runMain models.CodeGen
+run
+clean
+run
+clean
+run
+exit
+run
+dist
+exit
+run

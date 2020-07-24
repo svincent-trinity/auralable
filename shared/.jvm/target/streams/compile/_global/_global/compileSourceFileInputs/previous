@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.10":{"hashes":[["/Users/samvincent/Desktop/AuralAble/shared/src/main/scala/shared/SharedMessages.scala","5b89461ddf55bf3009d44f1615dd73f947d90ce0"]],"lastModifiedTimes":[]}}]

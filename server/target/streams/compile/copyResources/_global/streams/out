@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/samvincent/Desktop/AuralAble/server/conf/heroku.conf,/Users/samvincent/Desktop/AuralAble/server/target/scala-2.12/classes/heroku.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/samvincent/Desktop/AuralAble/server/conf/application.conf,/Users/samvincent/Desktop/AuralAble/server/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/samvincent/Desktop/AuralAble/server/conf/routes,/Users/samvincent/Desktop/AuralAble/server/target/scala-2.12/classes/routes)[0m

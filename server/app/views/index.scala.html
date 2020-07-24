@@ -1,0 +1,79 @@
+@(message: String)(implicit request: MessagesRequestHeader, flash: Flash)
+
+@main("AuralAble") {
+
+
+
+  <!--<h2>Draw stuff</h2>
+
+    <input type="hidden" id="uploadShape" value="@routes.Application.uploadShape()">
+    <input type="hidden" id="getShapes" value="@routes.Application.getShapes()">
+
+	--><input type="hidden" id="csrfToken" value="@helper.CSRF.getToken.value"><!--
+
+    <button type="button" id="draw-line">Draw A Line</button>
+    <button id="draw-rectangle">Draw a Rectangle</button>
+    <button id="color-black">Black</button>
+    <button id="color-red">Red</button>
+    <button id="color-white">White</button>
+
+    <br>
+    <canvas id="canvas" style="border-style: solid" width="800" height="600"></canvas>
+
+
+  <div id="root"></div>-->
+  <h2>Welcome to AuralAble!</h2>
+  <p>The free, open source aural skills trainer</p>
+
+  <input type="hidden" id="notePlayed"></input>
+
+  <text id="levelOn">Click the button to begin! </text> 
+  <br>
+  <button id="lvlbutton" onClick="play()">Next Level</button>
+
+  <table id="notesTable">
+      <th>Notes</th>
+  </table>
+  
+  <audio id = "C4">
+    <source src="@routes.Assets.versioned("sounds/virtual-piano/C4.mp3")" type="audio/mpeg">
+  </audio>
+
+
+  <audio id = "D4">
+    <source src="@routes.Assets.versioned("sounds/virtual-piano/D4.mp3")" type="audio/mpeg">
+  </audio>
+
+
+ <audio id = "E4">
+    <source src="@routes.Assets.versioned("sounds/virtual-piano/E4.mp3")" type="audio/mpeg">
+  </audio>
+  <audio id = "F4">
+    <source src="@routes.Assets.versioned("sounds/virtual-piano/F4.mp3")" type="audio/mpeg">
+  </audio>
+
+
+
+  <audio id = "G4">
+    <source src="@routes.Assets.versioned("sounds/virtual-piano/G4.mp3")" type="audio/mpeg">
+  </audio>
+
+
+  <audio id = "A4">
+    <source src="@routes.Assets.versioned("sounds/virtual-piano/A4.mp3")" type="audio/mpeg">
+  </audio>
+
+
+  <audio id = "B4">
+    <source src="@routes.Assets.versioned("sounds/virtual-piano/B4.mp3")" type="audio/mpeg">
+  </audio>
+
+  <audio id = "C5">
+    <source src="@routes.Assets.versioned("sounds/virtual-piano/C5.mp3")" type="audio/mpeg">
+  </audio>
+
+
+  <!--<script src="WebMIDIAPI.min.js"></script>    -->
+  <script src="@routes.Assets.versioned("javascript/handleMidi.js")"></script>
+
+}
